@@ -2,6 +2,8 @@
 
 Dockerize version of tool [SomeoneWeird/cirrus](https://github.com/SomeoneWeird/cirrus).
 
+You can also use prebuilt docker image from docker hub [bhegazy/cirrus](https://hub.docker.com/r/bhegazy/cirrus)
+
 ## Usage
 
 ### list
