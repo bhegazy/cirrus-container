@@ -21,7 +21,7 @@ docker run --rm -v $HOME/.aws:/root/.aws -v $(pwd)/aws:/aws bhegazy/cirrus creat
 
 ```shell
 $ docker run -it -v $HOME/.aws:/root/.aws -v $(pwd)/aws:/aws --entrypoint sh bhegazy/cirrus
-/ # cirrus delete cirrustest --region us-east-1
+$ cirrus delete cirrustest --region us-east-1
 ? Are you sure you want to delete cirrustest? Yes
 ? Just confirming, which region did you want to delete this stack in? us-east-1
 Deleting...
